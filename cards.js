@@ -15,7 +15,7 @@ const CARDS = [
   {
     titulo: "",
     imagem: "imagens/cabo_bisturi_4_3.jpeg",
-    descricao: "Cabo de n° Bisturi 4 e 3"
+    descricao: "Cabo de Bisturi n° 4 e 3"
   },
   {
     titulo: "",
