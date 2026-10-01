@@ -29,6 +29,11 @@ const CARDS = [
   },
   {
     titulo: "",
+    imagem: "imagens/pinca_anatomica_dente_de_rato.jpeg",
+    descricao: "Pinça Anatômica Dente de Rato"
+  },
+  {
+    titulo: "",
     imagem: "imagens/pinca_kelly.jpeg",
     descricao: "Pinça Kelly"
   },
