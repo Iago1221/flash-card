@@ -30,7 +30,7 @@ function mostrar(indice) {
     imagem.hidden = true;
   }
 
-  descricao.textContent = c.descricao || "";
+  descricao.innerHTML = c.descricao || "";
   contador.textContent = `${atual + 1} / ${CARDS.length}`;
   btnAnterior.disabled = atual === 0;
   btnProximo.disabled = atual === CARDS.length - 1;

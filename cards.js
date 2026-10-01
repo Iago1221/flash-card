@@ -95,12 +95,12 @@ const CARDS = [
   {
     titulo: "",
     imagem: "imagens/caso_uso_3.jpeg",
-    descricao: "Pinça Kelly, Pinça Rochester, Pinça Kosher ePinça Mixter"
+    descricao: "Pinça Kelly, Pinça Rochester, Pinça Kosher e Pinça Mixter"
   },
   {
     titulo: "",
     imagem: "imagens/caso_uso_4.jpeg",
-    descricao: "Afastador doyen, Afastador farabeuf <br>Ao lado: pinça foerster e cuba redonda"
+    descricao: "Afastador doyen, Afastador farabeuf <br/>Ao lado: pinça foerster e cuba redonda"
   },
   {
     titulo: "",
