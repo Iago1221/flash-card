@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flash Cards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section id="tela-inicio" class="tela">
+      <h1>Flash Cards</h1>
+      <p id="info-total" class="sub"></p>
+      <button id="btn-iniciar" class="btn btn-primario">Iniciar</button>
+    </section>
+
+    <section id="tela-cards" class="tela" hidden>
+      <p id="contador" class="sub"></p>
+
+      <div class="card-area">
+        <div id="card" class="card">
+          <div class="face frente">
+            <h2 id="card-titulo"></h2>
+            <img id="card-imagem" alt="">
+          </div>
+          <div class="face verso">
+            <p id="card-descricao"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="controles">
+        <button id="btn-anterior" class="btn">Anterior</button>
+        <button id="btn-virar" class="btn btn-primario">Virar</button>
+        <button id="btn-proximo" class="btn">Próximo</button>
+      </div>
+      <button id="btn-voltar" class="btn btn-link">Voltar ao início</button>
+    </section>
+  </main>
+
+  <script src="cards.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
